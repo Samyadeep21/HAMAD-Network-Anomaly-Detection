@@ -52,3 +52,80 @@ A novel lightweight framework for real-time network anomaly detection combining 
 
 ### Installation
 
+Create virtual environment
+python -m venv venv
+source venv/bin/activate # On Windows: venv\Scripts\activate
+
+Install dependencies
+pip install -r requirements.txt
+
+
+### Data Preparation
+
+Download datasets
+python src/data/download_datasets.py
+
+Preprocess data
+python src/data/preprocess.py
+
+
+### Model Training
+
+Train HAMAD model
+python src/models/hamad.py
+
+
+### Run Dashboard
+
+Launch interactive dashboard
+streamlit run dashboards/app.py
+
+## 📁 Project Structure
+
+HAMAD-Network-Anomaly-Detection/
+├── data/
+│ ├── raw/ # Raw datasets
+│ └── processed/ # Processed features
+├── src/
+│ ├── data/ # Data processing scripts
+│ ├── models/ # Model implementations
+│ ├── visualization/ # Plotting utilities
+│ └── utils/ # Helper functions
+├── models/ # Saved models
+├── dashboards/ # Streamlit apps
+├── notebooks/ # Jupyter notebooks
+└── tests/ # Unit tests
+
+
+## 🎯 Key Innovations
+
+1. **Selective Feature Fusion**: Attention-weighted ensemble combining RF and XGBoost
+2. **Dynamic Threshold Adaptation**: Reconstruction error-based threshold mechanism
+3. **Multi-scale Temporal Features**: Short-term and long-term traffic pattern capture
+4. **Edge-Ready Architecture**: Lightweight design for IoT/edge deployment
+
+## 📖 Citation
+
+
+## 👤 Author
+
+**Samyadeep Saha**
+- M.Tech in Cybersecurity, NIT Agartala
+- Email: samyadeep.saha@nita.ac.in
+- LinkedIn: [https://www.linkedin.com/in/samyadeep-saha-data/]
+- GitHub: [[(https://github.com/Samyadeep21)]
+
+## 📄 License
+
+This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- NSL-KDD Dataset: [Canadian Institute for Cybersecurity]
+- UNSW-NB15 Dataset: [UNSW Canberra]
+- CICIDS2017 Dataset: [Canadian Institute for Cybersecurity]
+
+
+
+
+
