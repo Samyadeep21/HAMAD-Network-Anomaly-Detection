@@ -23,7 +23,7 @@ A novel lightweight framework for real-time network anomaly detection combining 
 | UNSW-NB15 | 99.71% | 99.68% | 99.74% | 99.71% |
 | CICIDS2017 | 99.62% | 99.55% | 99.69% | 99.62% |
 
-## 🌟 Skills Demonstrated
+## ✍️ Skills Demonstrated
 
 ## 💡 Data Science & Engineering Skills Demonstrated
 
@@ -113,7 +113,7 @@ HAMAD-Network-Anomaly-Detection/
 - M.Tech in Cybersecurity, NIT Agartala
 - Email: samyadeep.saha@nita.ac.in
 - LinkedIn: [https://www.linkedin.com/in/samyadeep-saha-data/]
-- GitHub: [[(https://github.com/Samyadeep21)]
+- GitHub: [(https://github.com/Samyadeep21)]
 
 ## 📄 License
 
