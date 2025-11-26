@@ -39,7 +39,7 @@ A novel lightweight framework for real-time network anomaly detection combining 
 
 ---
 
-## 🏆 Placement Power: What Recruiters See
+## 🏆 Achievements:
 
 - Real-world visualization examples (screenshot links, GIFs)
 - Clean codebase demonstrating Python, data science, and dashboarding skills
